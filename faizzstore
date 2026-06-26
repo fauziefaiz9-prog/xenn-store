@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAIZZ STORE</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#0d1117;
+color:white;
+}
+
+header{
+background:#111827;
+padding:18px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+color:#00c8ff;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:18px;
+}
+
+.banner{
+margin:20px;
+background:linear-gradient(135deg,#00c8ff,#005eff);
+padding:35px;
+border-radius:15px;
+text-align:center;
+}
+
+.banner h1{
+font-size:34px;
+margin-bottom:10px;
+}
+
+.banner p{
+font-size:18px;
+}
+
+.games{
+padding:20px;
+}
+
+.games h2{
+margin-bottom:20px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:15px;
+}
+
+.card{
+background:#161b22;
+padding:20px;
+border-radius:15px;
+text-align:center;
+transition:.3s;
+cursor:pointer;
+}
+
+.card:hover{
+transform:scale(1.05);
+background:#1f2937;
+}
+
+.card img{
+width:70px;
+height:70px;
+margin-bottom:10px;
+}
+
+button{
+margin-top:10px;
+padding:10px 20px;
+border:none;
+border-radius:10px;
+background:#00c8ff;
+color:white;
+font-weight:bold;
+cursor:pointer;
+}
+
+footer{
+margin-top:40px;
+padding:20px;
+background:#111827;
+text-align:center;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<div class="logo">FAIZZ STORE</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Game</a>
+<a href="#">Cek Pesanan</a>
+</nav>
+
+</header>
+
+<div class="banner">
+<h1>TOP UP GAME CEPAT & AMAN</h1>
+<p>24 Jam • Proses Otomatis • Harga Murah</p>
+</div>
+
+<section class="games">
+
+<h2>🔥 Pilih Game</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="https://cdn-icons-png.flaticon.com/512/732/732212.png">
+<h3>Mobile Legends</h3>
+<button>Top Up</button>
+</div>
+
+<div class="card">
+<img src="https://cdn-icons-png.flaticon.com/512/732/732212.png">
+<h3>Free Fire</h3>
+<button>Top Up</button>
+</div>
+
+<div class="card">
+<img src="https://cdn-icons-png.flaticon.com/512/732/732212.png">
+<h3>PUBG Mobile</h3>
+<button>Top Up</button>
+</div>
+
+<div class="card">
+<img src="https://cdn-icons-png.flaticon.com/512/732/732212.png">
+<h3>Honor of Kings</h3>
+<button>Top Up</button>
+</div>
+
+<div class="card">
+<img src="https://cdn-icons-png.flaticon.com/512/732/732212.png">
+<h3>Valorant</h3>
+<button>Top Up</button>
+</div>
+
+<div class="card">
+<img src="https://cdn-icons-png.flaticon.com/512/732/732212.png">
+<h3>Genshin Impact</h3>
+<button>Top Up</button>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 FAIZZ STORE - All Rights Reserved
+</footer>
+
+</body>
+</html>
